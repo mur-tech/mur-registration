@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Register | M.U.R. Technology</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background: #f8f9fa;
+      margin: 0;
+      padding: 0;
+    }
+    .container {
+      max-width: 500px;
+      margin: 60px auto;
+      background: white;
+      padding: 30px;
+      box-shadow: 0 0 15px rgba(0,0,0,0.08);
+      border-radius: 10px;
+      text-align: center;
+    }
+    .logo {
+      width: 100px;
+      margin-bottom: 20px;
+    }
+    h2 {
+      margin-bottom: 10px;
+      font-weight: 600;
+    }
+    p.tagline {
+      margin-top: 0;
+      color: #666;
+    }
+    label {
+      display: block;
+      text-align: left;
+      margin: 15px 0 5px;
+      font-weight: 500;
+    }
+    input {
+      width: 100%;
+      padding: 12px;
+      border-radius: 5px;
+      border: 1px solid #ccc;
+    }
+    button {
+      width: 100%;
+      margin-top: 20px;
+      padding: 12px;
+      background: #111;
+      color: #fff;
+      font-weight: bold;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    button:hover {
+      background: #333;
+    }
+    footer {
+      text-align: center;
+      margin-top: 40px;
+      font-size: 13px;
+      color: #aaa;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <img src="logo.png" alt="M.U.R. Technology Logo" class="logo"/>
+    <h2>Join M.U.R. Technology</h2>
+    <p class="tagline">Register below to start your journey</p>
+    <form action="https://formspree.io/f/your-form-id" method="POST">
+      <label for="name">Full Name</label>
+      <input type="text" id="name" name="name" required />
+
+      <label for="email">Email Address</label>
+      <input type="email" id="email" name="email" required />
+
+      <label for="password">Password</label>
+      <input type="password" id="password" name="password" required />
+
+      <button type="submit">Register Now</button>
+    </form>
+  </div>
+
+  <footer>
+    &copy; 2025 M.U.R. Technology. All rights reserved.
+  </footer>
+</body>
+</html>
